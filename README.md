@@ -31,7 +31,7 @@
 ## Title of the App:
 - QuickEats: Connecting Hungry Hearts to Happy Kitchens!
 
-- Currently i am developing frontend for this project!
+- Currently i am developing frontend dashvoard for this project!
 
 ## Contact
 - For any inquiries, please contact tanvikreddy24@gmail.com.
