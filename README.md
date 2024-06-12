@@ -29,7 +29,7 @@
 **QuickEats** utilizes MongoDB, a NoSQL database, to store vendor, restaurant, food item, and user data. MongoDB's flexibility and scalability make it an ideal choice for managing the dynamic nature of the food delivery platform.
 
 ## Title of the App:
-- QuickEats: Connecting Hungry Hearts to Happy Kitchens!
+- QuickEats: Connecting Hungry Hearts to Happy Kitchens!🍜🍝🍔🍕
 
 - Currently i am developing frontend dashvoard for this project!
 
