@@ -32,6 +32,7 @@
 - QuickEats: Connecting Hungry Hearts to Happy Kitchens!🍜🍝🍔🍕
 
 - Currently i am developing frontend dashvoard for this project!
+- you can view the backend api here= https://quickeats-backend.onrender.com/vendor/all-vendors
 
 ## Contact
 - For any inquiries, please contact tanvikreddy24@gmail.com.
