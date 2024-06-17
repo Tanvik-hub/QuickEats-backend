@@ -6,6 +6,7 @@ const dotEnv=require('dotenv');
 const mongoose=require('mongoose');
 const vendorRoutes=require('./routes/vendorRoutes');
 const bodyParser=require('body-parser');
+const cors = require('cors');
 const firmRoutes=require('./routes/firmRoutes');
 const productRoutes = require('./routes/productRoutes');
 const path=require('path');
@@ -20,6 +21,13 @@ mongoose.connect(process.env.MONGO_URI)
 .then(()=>{console.log("mongodb connected successfully")})
 .catch((error)=>{console.log(error)})
 
+
+const corsOptions = {
+    origin: 'https://quick-eats-backend-dashboard-react-js.vercel.app', // Your frontend URL
+    optionsSuccessStatus: 200 // For legacy browser support
+  };
+
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use('/vendor',vendorRoutes);
 app.use('/firm',firmRoutes);
