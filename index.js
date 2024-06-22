@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 const corsOptions = {
-    origin: 'https://quick-eats-vendor-dashboard2-react-js.vercel.app', // Your frontend URL
+    origin: 'https://quick-eats-vendor-dashboard2-react-js.vercel.app', // Your fronten
     optionsSuccessStatus: 200 // For legacy browser support
   };
 
