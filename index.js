@@ -44,6 +44,5 @@ app.listen(PORT,()=>{
 })
 
 app.use('/',(req,res)=>{
-    res.send('API is running')
-
+    res.json({ message: 'API is running' });
 })
