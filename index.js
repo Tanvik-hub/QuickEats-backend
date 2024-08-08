@@ -44,6 +44,6 @@ app.listen(PORT,()=>{
 })
 
 app.use('/',(req,res)=>{
-    res.send("<h1>welcome to")
+    res.send('API is running')
 
 })
